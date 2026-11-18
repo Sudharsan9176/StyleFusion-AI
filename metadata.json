@@ -1,0 +1,6 @@
+{
+  "name": "Atelier Vera — Fashion & Virtual Try-On",
+  "description": "Modern black-and-white fashion e-commerce platform with SQLite persistence, full checkout, admin dashboard, and Hugging Face AI Virtual Try-On.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
