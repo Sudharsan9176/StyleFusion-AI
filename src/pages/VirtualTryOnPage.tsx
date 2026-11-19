@@ -214,7 +214,7 @@ export function VirtualTryOnPage() {
       a.href = url;
       const extMatch = activeSession.generated_image_path.match(/\.(webp|png|jpe?g)$/i);
       const ext = extMatch ? extMatch[1].toLowerCase() : 'png';
-      a.download = `atelier-vera-tryon-${activeSession.id}.${ext}`;
+      a.download = `stylefusion-ai-tryon-${activeSession.id}.${ext}`;
       document.body.appendChild(a);
       a.click();
       a.remove();

@@ -88,7 +88,7 @@ export function AuthPage({ initialMode = 'login' }: { initialMode?: 'login' | 'r
         </div>
 
         <h1 className="font-editorial text-3xl font-semibold text-zinc-950">
-          {mode === 'login' ? 'Welcome Back' : 'Join Atelier Vera'}
+          {mode === 'login' ? 'Welcome Back' : 'Join StyleFusion AI'}
         </h1>
         <p className="text-xs text-zinc-500 mt-1">
           {mode === 'login'

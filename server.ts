@@ -1188,7 +1188,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Atelier Vera server listening on http://localhost:${PORT}`);
+    console.log(`StyleFusion AI server listening on http://localhost:${PORT}`);
   });
 }
 

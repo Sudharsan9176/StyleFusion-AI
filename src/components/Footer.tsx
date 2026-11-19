@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <span className="font-editorial text-2xl font-semibold text-zinc-950">Atelier Vera</span>
+            <span className="font-editorial text-2xl font-semibold text-zinc-950">StyleFusion AI</span>
             <p className="mt-3 text-sm text-zinc-500 max-w-md leading-relaxed">
               Contemporary architectural tailoring and natural-fiber wardrobe essentials, paired with live Hugging Face
               AI Virtual Try-On so you can verify proportion and drape before ordering.
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-zinc-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-          <p>© {new Date().getFullYear()} Atelier Vera. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} StyleFusion AI. All rights reserved.</p>
           <p>Complimentary express shipping on orders over $250 · Cash on Delivery &amp; Card Checkout</p>
         </div>
       </div>

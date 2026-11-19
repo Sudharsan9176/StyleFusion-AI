@@ -42,7 +42,7 @@ export function Navbar() {
           to="/"
           className="font-editorial text-2xl font-semibold tracking-tight text-zinc-950 whitespace-nowrap shrink-0"
         >
-          Atelier Vera
+          StyleFusion AI
         </Link>
 
         {/* Zone 2: Concise single-line navigation links */}

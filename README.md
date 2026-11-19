@@ -1,4 +1,4 @@
-# Atelier Vera — AI-Powered Fashion E-Commerce & Virtual Try-On
+# StyleFusion AI — AI-Powered Fashion E-Commerce & Virtual Try-On
 
 Full-stack fashion e-commerce platform featuring a minimalist black-and-white storefront, SQLite persistence, shopping bag, wishlist, multi-step checkout, order tracking, admin analytics dashboard, and live **Hugging Face AI Virtual Try-On** (`IDM-VTON`, `CatVTON`, `OOTDiffusion`, or custom HTTP inference endpoints).
 

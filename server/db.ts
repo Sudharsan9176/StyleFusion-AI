@@ -186,7 +186,7 @@ function seedInitialData(): void {
         description:
           'Tailored from heavyweight Italian virgin wool with structured peak lapels, horn buttons, and full cupro lining. Designed for crisp autumn and winter layering.',
         category: 'Jackets',
-        brand: 'Atelier Vera',
+        brand: 'StyleFusion AI',
         price: 490.0,
         discount_price: 420.0,
         sizes: JSON.stringify(['S', 'M', 'L', 'XL']),
@@ -200,7 +200,7 @@ function seedInitialData(): void {
         description:
           'Cut from 22-momme organic mulberry silk with mother-of-pearl buttons, clean French placket, and fluid drape for formal or smart-casual styling.',
         category: 'Shirts',
-        brand: 'Atelier Vera',
+        brand: 'StyleFusion AI',
         price: 220.0,
         discount_price: 185.0,
         sizes: JSON.stringify(['XS', 'S', 'M', 'L', 'XL']),
@@ -242,7 +242,7 @@ function seedInitialData(): void {
         description:
           'Architectural sleeveless midi dress in matte Japanese crepe featuring knife-pleated bodice paneling, defined waist seam, and fluid full-length skirt.',
         category: 'Dresses',
-        brand: 'Atelier Vera',
+        brand: 'StyleFusion AI',
         price: 340.0,
         discount_price: 295.0,
         sizes: JSON.stringify(['XS', 'S', 'M', 'L']),
@@ -298,7 +298,7 @@ function seedInitialData(): void {
         description:
           'Fine 12-gauge Grade-A Mongolian cashmere knit sweater with ribbed fold-over collar and relaxed shoulder seams for effortless everyday warmth.',
         category: 'Casual Wear',
-        brand: 'Atelier Vera',
+        brand: 'StyleFusion AI',
         price: 290.0,
         discount_price: 245.0,
         sizes: JSON.stringify(['XS', 'S', 'M', 'L', 'XL']),
@@ -312,7 +312,7 @@ function seedInitialData(): void {
         description:
           'Refined womenswear shirt tailored with curved French cuffs, sculpted waist darts, and luminous silk-cotton poplin finish.',
         category: "Women's Clothing",
-        brand: 'Atelier Vera',
+        brand: 'StyleFusion AI',
         price: 210.0,
         discount_price: null,
         sizes: JSON.stringify(['XS', 'S', 'M', 'L']),
@@ -326,7 +326,7 @@ function seedInitialData(): void {
         description:
           'Longline tailored womenswear overcoat engineered from double-faced virgin wool for clean drape over evening dresses or suiting.',
         category: "Women's Clothing",
-        brand: 'Atelier Vera',
+        brand: 'StyleFusion AI',
         price: 510.0,
         discount_price: 450.0,
         sizes: JSON.stringify(['XS', 'S', 'M', 'L']),
@@ -400,6 +400,8 @@ function seedInitialData(): void {
       );
     }
   }
+
+  db.prepare("UPDATE products SET brand = 'StyleFusion AI' WHERE brand = 'Atelier Vera'").run();
 }
 
 export function serializeProduct(row: Record<string, unknown>) {

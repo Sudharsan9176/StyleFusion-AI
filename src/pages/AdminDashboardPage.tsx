@@ -47,7 +47,7 @@ export function AdminDashboardPage() {
   const [modalOpen, setModalOpen] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
   const [formName, setFormName] = useState('');
-  const [formBrand, setFormBrand] = useState('Atelier Vera');
+  const [formBrand, setFormBrand] = useState('StyleFusion AI');
   const [formCategory, setFormCategory] = useState('Jackets');
   const [formPrice, setFormPrice] = useState('');
   const [formDiscount, setFormDiscount] = useState('');
@@ -104,7 +104,7 @@ export function AdminDashboardPage() {
   const openCreateModal = () => {
     setEditingProduct(null);
     setFormName('');
-    setFormBrand('Atelier Vera');
+    setFormBrand('StyleFusion AI');
     setFormCategory('Jackets');
     setFormPrice('');
     setFormDiscount('');

@@ -35,7 +35,7 @@ export function HomePage() {
         <div className="relative h-[74vh] min-h-[520px] max-h-[760px] w-full overflow-hidden bg-zinc-900">
           <SafeImage
             src="/src/assets/images/hero_atelier_editorial_1794992371896.jpg"
-            alt="Atelier Vera Fall-Winter Editorial Campaign"
+            alt="StyleFusion AI Fall-Winter Editorial Campaign"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/15" />
